@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Web-API Documentation Browser</title>
+        <script src="webdoc/jquery"></script>
+        <script src="webdoc/webdoc"></script>
+        <link rel="stylesheet" href="webdoc/bootstrap">
+    </head>
+<body>
+
+    <div class="container" style="padding-bottom:50px;">
+        <div class="page-header">
+            <h1>Web-API Documentation Browser</h1>
+        </div>
+        <div class="col-md-4">
+            <h3>Supported Classes</h3>
+            <ul id="supportedClasses" class="list-group">
+                <!--  <li class="list-group-item"><a href="#"> supportedClass </a></li>  -->                
+            </ul>
+        </div>
+        <div class="col-md-8">
+            <h3>
+                <span id="supportedClassId" class="label label-primary">ClasseId</span>
+            </h3>
+            
+            <div id="context">
+                <h4>@Context</h4>
+                <div style="padding-bottom:5px;">
+                 	<table class="table table-hover table-condensed">
+                   		 <tbody>
+                   		 	<!-- <tr><th>vocab</th><td>url</td></tr> -->
+                   		 </tbody>
+                	</table>
+                </div>                
+            </div>
+            
+            <div id="supportedConstants">
+                <h4>Supported Constants</h4>
+                <table class="table table-hover table-condensed">
+                    <tbody>                      
+                    </tbody>
+                </table>
+            </div>
+            
+            <div id="supportedProperties">
+                <h4>Supported Properties</h4>
+                <table class="table table-hover table-condensed">
+                    <tbody>                      
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="supportedOperationsDiv">
+                <h4>Supported Operations</h4>
+                <div id="supportedOperations">
+               <!-- <div style="padding-bottom:10px;">
+                        <span class="label label-warning">PUT</span>
+                        <small class="text-muted">@id: </small> <a href="#"> api-vocab:opperationID </a>
+                        <small class="text-muted">URI: </small> <a href="#"> /api.com/{pp1}{?qp1} </a>
+                        <br>
+                        <small class="text-muted">expects:</small> <a href="#" style="padding-right:5px;"> Wanted </a>
+                        <small class="text-muted">returns:</small> <a href="#" style="padding-right:5px;"> Wanted </a>
+                        <small class="text-muted">expects:</small> <a href="#" style="padding-right:5px;"> Wanted </a>
+                        <small class="text-muted">returns:</small> <a href="#" style="padding-right:5px;"> Wanted </a>
+                </div>
+                 -->
+                 </div>
+            </div>
+	        
+	        <div id="globalIriTemplateMappingDiv">
+	        	<h5>Global Iri-Template Mapping</h5>
+	        	<div id="globalIriTemplateMapping">
+	            	<!-- <a href="#">{IDy: String req}</a> -->
+	            </div>
+	        </div>
+            
+            <div id="globalHeadersDiv">
+                <h5>Global Headers</h5>
+                <div id="globalHeaders">
+                    <!-- <a href="#">{IDy: String req}</a> -->
+                </div>
+            </div>
+	        
+        </div>
+    </div>
+
+
+</body>
+</html>
